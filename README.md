@@ -12,4 +12,4 @@
 5. Input içerisine yazacağınız string ifadeler ve ekrandaki gereksiz printler kodun yanlış değerlendirilmesine yol açacaktır. input('Değer girin:') gibi ifadeler yerine sadece input() yazıp bırakın.
 6. Kod her bir test case için "CASE COUNT | TRUE OR FALSE | YOUR_OUTPUT | ACTUAL OUTPUT" şeklinde çıktı vermektedir. En sonda toplam case sayısı üzerinden kaç doğru olduğunu gösterir.
 7. PARTIAL GRADING KODU DEĞİLDİR!!!!! SADECE SONUÇLARI KARŞILAŞTIRIR.
-## IT'S NOT THE PERFECT CODE. GİVE FEEDBACK IF YOU THINK SOMETHING IS WRONG
+## IT'S NOT THE PERFECT CODE. GIVE FEEDBACK IF YOU THINK SOMETHING IS WRONG
