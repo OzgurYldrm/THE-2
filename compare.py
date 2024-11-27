@@ -7,7 +7,7 @@ true_count = 0
 with open(case_file, 'r') as file:
     for count,line in enumerate(file):
         process = subprocess.Popen(
-        ['python', py_file], 
+        ['python3', py_file], 
         stdin=subprocess.PIPE, 
         stdout=subprocess.PIPE, 
         text=True)

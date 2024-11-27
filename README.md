@@ -1,8 +1,9 @@
 # TR
 ## Nasıl kullanılır
-1. `cases.txt` ve `compare.py` dosyalarını indirin.
-2. Yeni bir klasör oluşturup içerisine `cases.txt` ve `compare.py` dosyalarını taşıyın. Çözümünüzün bulunduğu dosyayı aynı klasörün içerisine `THE2.py` ismiyle kopyalayın. [ALTERNATİF (üstteki çalışmazsa deneyin): `compare.py` dosyasının ilk iki satırında kodunuzun ve `cases.txt` dosyasının absolute path'ini değişkenlere verin (kodun içerisinde örnek olarak bulunmakta).]
-5. `compare.py` dosyasını python ile çalıştırın.
+1. Terminalinizde `python3` komutu ile Python'u çağırabildiğinizden emin olun. (Çalıştıramıyorsanız python'u indirin ve PATH'inize ekleyin)
+2. `cases.txt` ve `compare.py` dosyalarını indirin.
+3. Yeni bir klasör oluşturup içerisine `cases.txt` ve `compare.py` dosyalarını taşıyın. Çözümünüzün bulunduğu dosyayı aynı klasörün içerisine `THE2.py` ismiyle kopyalayın. [ALTERNATİF (üstteki çalışmazsa deneyin): `compare.py` dosyasının ilk iki satırında kodunuzun ve `cases.txt` dosyasının absolute path'ini değişkenlere verin (kodun içerisinde örnek olarak bulunmakta).]
+4. `compare.py` dosyasını python ile çalıştırın.
 ## Notes
 1. Debugging'i engellememek için kod try-except içerisine alınmamıştır. Kendi kodunuzda alacağınız hatalar terminale bastırılıcaktır.
 2. `compare.py` dosyasını bulunduğu klasörün içerisinde çalıştırın. "[Errno 2] No such file or directory" hatası alıyorsanız bununla alakalı olabilir. Bir başka yöntem olarak koda absolute path verebilirsiniz (ex: "D:\Projects\THE's\THE2.py"). 
