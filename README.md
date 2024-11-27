@@ -1,6 +1,6 @@
 # TR
 ## Nasıl kullanılır
-1. Terminalinizde `python3` komutu ile Python'u çağırabildiğinizden emin olun. (Çalıştıramıyorsanız python'u indirin ve PATH'inize ekleyin)
+1. Terminalinizde `python3` komutu ile Python'u çağırabildiğinizden emin olun. (Python bulunamadı benzeri bir hata alıyorsanız: compare.py içerisinde 10. satırda bulunan "python3"'ü "python" olarak değiştirin. Halen hata alıyorsanız python'u indirin ve PATH'inize ekleyin)
 2. `cases.txt` ve `compare.py` dosyalarını indirin.
 3. Yeni bir klasör oluşturup içerisine `cases.txt` ve `compare.py` dosyalarını taşıyın. Çözümünüzün bulunduğu dosyayı aynı klasörün içerisine `THE2.py` ismiyle kopyalayın. [ALTERNATİF (üstteki çalışmazsa deneyin): `compare.py` dosyasının ilk iki satırında kodunuzun ve `cases.txt` dosyasının absolute path'ini değişkenlere verin (kodun içerisinde örnek olarak bulunmakta).]
 4. `compare.py` dosyasını python ile çalıştırın.
