@@ -1,8 +1,8 @@
 # TR
 ## Nasıl kullanılır
 1. `cases.txt` ve `compare.py` dosyalarını indirin.
-2. Yeni bir dosya oluşturup içerisine `cases.txt` ve `compare.py` dosyalarını taşıyın. Çözümünüzün bulunduğu dosyayı aynı klasörün içerisine `THE2.py` ismiyle kopyalayın.
-  2.1. ALTERNATİF (üstteki çalışmazsa deneyin): `compare.py` dosyasının ilk iki satırında kodunuzun ve `cases.txt` dosyasının absolute path'ini değişkenlere verin (kodun içerisinde örnek olarak bulunmakta).
+2. Yeni bir klasör oluşturup içerisine `cases.txt` ve `compare.py` dosyalarını taşıyın. Çözümünüzün bulunduğu dosyayı aynı klasörün içerisine `THE2.py` ismiyle kopyalayın.
+2.1. ALTERNATİF (üstteki çalışmazsa deneyin): `compare.py` dosyasının ilk iki satırında kodunuzun ve `cases.txt` dosyasının absolute path'ini değişkenlere verin (kodun içerisinde örnek olarak bulunmakta).
 5. `compare.py` dosyasını python ile çalıştırın.
 ## Notes
 1. Debugging'i engellememek için kod try-except içerisine alınmamıştır. Kendi kodunuzda alacağınız hatalar terminale bastırılıcaktır.
