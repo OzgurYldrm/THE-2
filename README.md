@@ -1,12 +1,12 @@
 # TR
 ## Nasıl kullanılır
 1. `cases.txt` ve `compare.py` dosyalarını indirin.
-2. Dosyaları THE-2 çözüm kodunuzun olduğu klasöre taşıyın.
-3. `compare.py` dosyasının ilk satırında kodunuzun path'ini verin. İkinci satırda indirdiğiniz `cases.txt` dosyasının path'ini verin.
-4. `compare.py` dosyasını python ile çalıştırın.
+2. Yeni bir dosya oluşturup içerisine `cases.txt` ve `compare.py` dosyalarını taşıyın. Çözümünüzün bulunduğu dosyayı aynı klasörün içerisine `THE2.py` ismiyle kopyalayın.
+  2.1. ALTERNATİF (üstteki çalışmazsa deneyin): `compare.py` dosyasının ilk iki satırında kodunuzun ve `cases.txt` dosyasının absolute path'ini değişkenlere verin (kodun içerisinde örnek olarak bulunmakta).
+5. `compare.py` dosyasını python ile çalıştırın.
 ## Notes
 1. Debugging'i engellememek için kod try-except içerisine alınmamıştır. Kendi kodunuzda alacağınız hatalar terminale bastırılıcaktır.
-2. `compare.py` dosyasını bulunduğunuz klasörün içerisinde çalıştırın. "[Errno 2] No such file or directory" hatası alıyorsanız bununla alakalı olabilir. Bir başka yöntem olarak koda absolute path verebilirsiniz (ex: "D:\Projects\THE's\THE2.py"). 
+2. `compare.py` dosyasını bulunduğu klasörün içerisinde çalıştırın. "[Errno 2] No such file or directory" hatası alıyorsanız bununla alakalı olabilir. Bir başka yöntem olarak koda absolute path verebilirsiniz (ex: "D:\Projects\THE's\THE2.py"). 
 3. "Unicode Error 'unicodeescape' codec can't decode bytes" Hatası alıyorsanız verdiğiniz path'deki "\" işaretlerini "/" ile değiştirmeyi deneyin
 4. Kod belirli olan değerlerin ("MARITAL_STATUS" / "SPECIAL_NEEDS" etc.) bütün kombinasyonlarını ve belirli olmayan değerlerin (CHILD NUMBER AND AGE / INCOME) rastgele atanmasını içeriyor. Burda karşılaşmadığınız test caseler ve hatalar değerlendirilme sırasında ortaya çıkabilir (ama düşük bi ihtimal :) . Total 5184 Test Case bulunmakta.
 5. Eğer değerler aynı olmasına rağmen FALSE dönüyorsa ekrana kaç basamak yazdırdığınıza dikkat edin. En büyük tavsiye print satırlarını dökümandan copy-paste yapın.
